@@ -25,3 +25,30 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Installation instructions
+Method 1
+Install ngx-bootstrap from npm
+
+npm install ngx-bootstrap --save
+You will need bootstrap styles (Bootstrap 3)
+
+<!-- index.html -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+Or Bootstrap 4
+
+<!--- index.html -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+To enable bootstrap 4 theme templates in ngx-bootstrap, please read here
+
+<!-- index.html -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+
+Open angular.json and insert a new entry into the styles array:
+      "styles": [
+         "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css",
+      ],
+
+      
+npm i angular-animations --save# AngulaNgxBootstraDemo
